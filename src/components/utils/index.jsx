@@ -20,7 +20,6 @@ import express from "/images/express.png"
 import { FaPaperPlane, FaClipboardList } from "react-icons/fa";
 import { IoPerson, IoDocumentTextOutline } from "react-icons/io5";
 import { MdHomeRepairService } from "react-icons/md";
-import { IoMdHome } from "react-icons/io";
 
 
 export const MainSkills = [
@@ -202,6 +201,16 @@ export const projectData = [
     imgSrc: '/images/iphone.png',
     views: '1.3k',
     comments: '300'
+  },
+  {
+    id: 75675,
+    title: "Online Ekart Store",
+    desc: 'Expertly designed goods for workspace, home, and travel. Shop the best products from EKart',
+    category: 'ecommerce',
+    link: 'https://ekart-frontend-mu.vercel.app/',
+    imgSrc: '/images/ekart.png',
+    views: '1k',
+    comments: '100'
   },
   {
     id: 144,

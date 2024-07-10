@@ -7,7 +7,7 @@ import { projectData } from "../utils";
 import { FaArrowRight } from "react-icons/fa";
 
 
-const filterTexts = ['All', 'Movie', 'Portfolio', 'Resturant', 'Clone', 'Custom']
+const filterTexts = ['All', 'Movie', 'Portfolio', 'E-Commerce', 'Resturant', 'Clone', 'Custom']
 
 export default function Explore() {
     const [selectedFilterTexts, setSelectedFilterTexts] = useState('All');
@@ -49,20 +49,20 @@ export default function Explore() {
     }, [])
 
     return (
-        <div className="h_w-full flex flex-col  pl-10 pr-10">
+        <div className="h_w-full flex flex-col pl-2 pr-2 sm:pl-10 sm:pr-10">
             <div className="my-10">
                 <h1 className="text-white text-4xl font-bold mb-5 mt-4">Explore my best <strong className="text-green font-normal">Projects</strong>.</h1>
                 <Link to='/' className="py-2 mt-4 inline-flex gap-2 items-center px-4 rounded-2xl text-white bg-green"><span className='rotate-180'><FaArrowRight /></span> Go Back</Link>
             </div>
-            <div className="flex justify-between max-md:flex-col h-full p-5 w-full">
-                <div className="relative mb-5">
-                    <input type="text" placeholder="Search Projects" className="py-2 rounded-md bg-dark pl-11 pr-11 w-80  text-white outline-none max-md:w-full border border-gray-700 focus:border-green focus:ring-2 focus:ring-green " onChange={(e) => { setSearchQueries(e.target.value) }} value={searchQueries} />
+            <div className="flex max-lg:items-center lg:justify-between  max-lg:flex-col h-full p-5 w-full">
+                <div className="relative mb-5 max-md:w-full">
+                    <input type="text" placeholder="Search Projects" className="py-2 rounded-md bg-dark md:pl-16 md:pr-16 pl-11 pr-11 lg:pl-11 lg:pr-11 w-full lg:w-[15rem] 2xl:w-80  text-white outline-none border border-gray-700 focus:border-green focus:ring-2 focus:ring-green " onChange={(e) => { setSearchQueries(e.target.value) }} value={searchQueries} />
                     <span className="absolute left-2 top-2 p-1 bg-gray-800"><IoIosSearch size={18} color="white" /></span>
                     {searchQueries.length > 0 && <span className="absolute right-2 top-2 p-1 bg-gray-800" onClick={() => setSearchQueries('')}><RxCross2 size={18} color="white" /></span>}
                 </div>
                 <div>
-                    <div className="text-black flex  gap-2 flex-wrap">
-                        {filterTexts?.map((texts, index) => <button className={`py-2.5 transitions px-4 max-md:text-sm rounded-sm  ${selectedFilterTexts === texts ? 'bg-green' : 'bg-gray-800 text-white'}`} onClick={() => setSelectedFilterTexts(texts)} title={texts + ' Websites'} key={index}>{texts}</button>)}
+                    <div className="text-black flex max-sm:justify-center  gap-2 flex-wrap">
+                        {filterTexts?.map((texts, index) => <button className={`py-2.5  transitions px-4 max-xl:text-sm rounded-sm  ${selectedFilterTexts === texts ? 'bg-green' : 'bg-gray-800 text-white'}`} onClick={() => setSelectedFilterTexts(texts)} title={texts + ' Websites'} key={index}>{texts}</button>)}
                     </div>
                 </div>
             </div>
