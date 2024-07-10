@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Contexts } from '../../context/ContextApi';
 import { Link } from 'react-scroll';
 import { mobileNavLinks } from '../utils';
-import ExtraLink from './extraLink';
+import ExtraLink from './ExtraLink';
 
 
 export default function MobileNav() {

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { opacity, slideInFromLeft } from '../utils/motion';
 import MobileNav from './MobileNav';
 import { links } from '../utils';
-import ExtraLink from './extraLink';
+import ExtraLink from './ExtraLink';
 
 export default function Navbar() {
 
