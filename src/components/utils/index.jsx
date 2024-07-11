@@ -206,7 +206,7 @@ export const projectData = [
     id: 75675,
     title: "Online Ekart Store",
     desc: 'Expertly designed goods for workspace, home, and travel. Shop the best products from EKart',
-    category: 'ecommerce',
+    category: 'e-commerce',
     link: 'https://ekart-frontend-mu.vercel.app/',
     imgSrc: '/images/ekart.png',
     views: '1k',
@@ -221,6 +221,16 @@ export const projectData = [
     imgSrc: '/images/foodsforfoodies.png',
     views: '1k',
     comments: '300'
+  },
+  {
+    id: 14454564,
+    title: 'Linkly',
+    desc: 'Linkly is an efficient and easy-to-use URL shortening service designed to streamline your online experience. Whether you need to shorten lengthy URLs for sharing on social media or tracking clicks, Linkly makes it simple and fast.',
+    category: 'custom',
+    link: '',
+    imgSrc: '/images/linkly.png',
+    views: '1.7k',
+    comments: '390'
   },
   {
     id: 1,
