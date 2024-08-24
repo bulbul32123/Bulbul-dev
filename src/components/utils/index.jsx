@@ -139,8 +139,25 @@ export const projectData = [
     category: 'movie',
     link: 'https://advancemovieapp.netlify.app/',
     imgSrc: '/images/movix.png',
-    views: '1.3k',
-    comments: '500'
+    gitLink: 'https://github.com/bulbul32123/Movie-APP-With-React'
+  },
+  {
+    id: 14454564,
+    title: 'Write Sonic',
+    desc: 'Create SEO-optimized and plagiarism-free content for your blogs, ads, emails and website 10X faster.',
+    link: 'https://writesonicai.netlify.app/',
+    imgSrc: '/images/writesonic.png',
+    category: 'Ai',
+    gitLink: 'https://github.com/bulbul32123/WriteSonic-Ai---Landing-page'
+  },
+  {
+    id: 144545564,
+    title: 'Dev Easy',
+    desc: 'A stand-alone browser and devtool for ambitious web developers that want to build more responsive, accessible and performant sites in less time. Save hours on each project, love every minute of it.',
+    link: 'https://deveasy.netlify.app/',
+    imgSrc: '/images/Dev Easy.png',
+    category: 'Custom',
+    gitLink: 'https://github.com/bulbul32123/Dev-Easy---with-Reactjs'
   },
   {
     id: 199,
@@ -149,18 +166,7 @@ export const projectData = [
     category: 'resturant',
     link: 'https://foodforhummans.netlify.app/',
     imgSrc: '/images/tastyfood.png',
-    views: '1.9k',
-    comments: '1k'
-  },
-  {
-    id: 2,
-    title: "Bulbul's Portfolio",
-    desc: 'I develop a 3D visuals, user interfaces and web application. Explore me with my portfolio.',
-    category: 'portfolio',
-    link: 'https://bulbuls-portfolio.netlify.app/',
-    imgSrc: '/images/portfolio1.png',
-    views: '1.4k',
-    comments: '490'
+    gitLink: 'https://github.com/bulbul32123/BestFoods/tree/main/food%20website'
   },
   {
     id: 99,
@@ -169,8 +175,7 @@ export const projectData = [
     category: 'clone',
     link: 'https://youtubeclonewithreactjs.netlify.app/',
     imgSrc: '/images/youtube.png',
-    views: '1.9k',
-    comments: '600'
+    gitLink: 'https://github.com/bulbul32123/Youtube-Clone'
   },
   {
     id: 39,
@@ -179,38 +184,16 @@ export const projectData = [
     category: 'resturant',
     link: 'https://foodwithfoodi.netlify.app/',
     imgSrc: '/images/foodi.png',
-    views: '1.4k',
-    comments: '500'
+    gitLink: 'https://github.com/bulbul32123/Modern-Ui-Resturant-Webiste'
   },
   {
     id: 349,
     title: "Hoobank",
     desc: 'The Next Generation Payment Method.Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees. ',
-    category: 'custom',
+    category: 'Ai',
     link: 'https://modernbankwebsites.netlify.app/',
     imgSrc: '/images/hoobank.png',
-    views: '1.6k',
-    comments: '570'
-  },
-  {
-    id: 69,
-    title: "iphone 14 Pro",
-    desc: 'Big and bigger.',
-    category: 'clone',
-    link: 'https://snazzy-capybara-872b80.netlify.app/',
-    imgSrc: '/images/iphone.png',
-    views: '1.3k',
-    comments: '300'
-  },
-  {
-    id: 75675,
-    title: "Online Ekart Store",
-    desc: 'Expertly designed goods for workspace, home, and travel. Shop the best products from EKart',
-    category: 'e-commerce',
-    link: 'https://ekart-frontend-mu.vercel.app/',
-    imgSrc: '/images/ekart.png',
-    views: '1k',
-    comments: '100'
+    gitLink: ''
   },
   {
     id: 144,
@@ -219,28 +202,16 @@ export const projectData = [
     category: 'resturant',
     link: 'https://tasteyourfood.netlify.app/',
     imgSrc: '/images/foodsforfoodies.png',
-    views: '1k',
-    comments: '300'
+    gitLink: 'https://github.com/bulbul32123/Food--website/tree/main/Food%20-%20Website'
   },
   {
-    id: 14454564,
-    title: 'Linkly',
-    desc: 'Linkly is an efficient and easy-to-use URL shortening service designed to streamline your online experience. Whether you need to shorten lengthy URLs for sharing on social media or tracking clicks, Linkly makes it simple and fast.',
-    category: 'custom',
-    link: '',
-    imgSrc: '/images/linkly.png',
-    views: '1.7k',
-    comments: '390'
-  },
-  {
-    id: 1,
-    title: 'Best Eats',
-    desc: 'The Best Foods Devlivered. Explore the best foods in your area.',
-    category: 'resturant',
-    link: 'https://bestfoodsdelivery.netlify.app/',
-    imgSrc: '/images/besteat.png',
-    views: '1k',
-    comments: '300'
+    id: 75675,
+    title: "Online Ekart Store",
+    desc: 'Expertly designed goods for workspace, home, and travel. Shop the best products from EKart',
+    category: 'e-commerce',
+    link: 'https://ekart-frontend-mu.vercel.app/',
+    imgSrc: '/images/ekart.png',
+    gitLink: 'https://github.com/bulbul32123/Ekart-Store-Frontend'
   },
   {
     id: 1546,
@@ -249,48 +220,7 @@ export const projectData = [
     category: 'movie',
     link: 'https://watch-hot-animes.netlify.app/',
     imgSrc: '/images/watch.png',
-    views: '600',
-    comments: '100'
-  },
-  {
-    id: 7,
-    title: 'Movie Space',
-    desc: 'Explore the functionalitys.',
-    category: 'movie',
-    link: 'https://movieappfunctionality.netlify.app/',
-    imgSrc: '/images/moviespace.png',
-    views: '1.4k',
-    comments: '330'
-  },
-  {
-    id: 8638,
-    title: "Bulbul's Portfolio",
-    desc: 'Creative Web Developer Offering 1+ Years Of Experience Providing High-Impact Web Solutions For Many Different Organizations.',
-    category: 'portfolio',
-    link: 'https://miniprotfoliowithreact.netlify.app/',
-    imgSrc: '/images/CodeBoy.png',
-    views: '400',
-    comments: '330'
-  },
-  {
-    id: 8,
-    title: 'globecoin',
-    desc: 'Move Money to All Corners of the World.',
-    category: 'custom',
-    link: 'https://globalcurrency.netlify.app/',
-    imgSrc: '/images/Currency.png',
-    views: '900',
-    comments: '770'
-  },
-  {
-    id: 7777,
-    title: 'IMDB',
-    desc: 'Find your Movies, tv/Shows. Explore All Movies Tv Shows bg IMDB',
-    category: 'movie',
-    link: 'https://movie4dream.netlify.app/',
-    imgSrc: '/images/imdb.png',
-    views: '1.3k',
-    comments: '330'
+    gitLink: 'https://github.com/bulbul32123/Watch-Anime'
   },
   {
     id: 234,
@@ -299,59 +229,16 @@ export const projectData = [
     category: 'clone',
     link: 'https://google-searcher.netlify.app/',
     imgSrc: '/images/google.png',
-    views: '2k',
-    comments: '970'
-  },
-  {
-    id: 868,
-    title: "Bulbul's Portfolio",
-    desc: 'Turning Vision Into Reality With Code And Design.',
-    category: 'portfolio',
-    link: 'https://bulbulpersonalportfolio.netlify.app/',
-    imgSrc: '/images/portfolio3.png',
-    views: '500',
-    comments: '230'
-  },
-  {
-    id: 3,
-    title: 'Coffee Time',
-    desc: 'FRESH COFFEE IN THE MORNING',
-    category: 'resturant',
-    link: 'https://coffeetimes.netlify.app/#',
-    imgSrc: '/images/coffeetime.png',
-    views: '1k',
-    comments: '230'
-  },
-
-  {
-    id: 443,
-    title: 'Movie Pulse',
-    desc: 'Find your favorite movies tv Shows etc.',
-    category: 'movie',
-    link: 'https://moviepulses.netlify.app/',
-    imgSrc: '/images/MoviePulse.png',
-    views: '1.5k',
-    comments: '630'
-  },
-  {
-    id: 878,
-    title: "Bulbul's Portfolio",
-    desc: 'There have some sample of my portfolios.',
-    category: 'portfolio',
-    link: 'https://bulbulportfolio.netlify.app/',
-    imgSrc: '/images/portfolio4.png',
-    views: '400',
-    comments: '230'
+    gitLink: 'https://github.com/bulbul32123/Google-Search-App'
   },
   {
     id: 67,
     title: "Homyz",
     desc: 'Discover Most Suitable Property',
-    category: 'custom',
+    category: 'Real State',
     link: 'https://realstatereactapp.netlify.app/',
     imgSrc: '/images/homyz.png',
-    views: '500',
-    comments: '330'
+    gitLink: ''
   },
 ]
 
