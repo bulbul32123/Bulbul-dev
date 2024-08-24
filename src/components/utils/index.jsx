@@ -123,11 +123,7 @@ export const socialData = [
 export const texts = [
   {
     id: 0,
-    texts: "A passionate front end developer with a focus on frontend technologies. I have 3+ years of experience crafting beautiful and responsive websites and web applications using cutting-edge tools and frameworks."
-  },
-  {
-    id: 3,
-    texts: "Let's Explore how I can help bring your ideas to life and create engaging digital experiences that resonate with your audience."
+    texts: "A passionate front end developer with a focus on frontend technologies. I have 3+ years of experience crafting beautiful and responsive websites and web applications using cutting-edge tools and frameworks.Let's Explore how I can help bring your ideas to life and create engaging digital experiences that resonate with your audience."
   },
 ]
 
