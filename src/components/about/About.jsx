@@ -1,9 +1,7 @@
 import React from 'react';
 import { PopupImg } from '../PopupImg';
-import Img from '../Img';
 import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromTop } from '../utils/motion';
-import PersonalInfo from './PersonalInfo';
 import { texts } from '../utils';
 import { Link } from 'react-scroll'
 

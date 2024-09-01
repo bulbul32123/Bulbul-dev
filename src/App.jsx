@@ -16,7 +16,6 @@ export default function App() {
       {imgUrl.isOpenPreviewImage && <PreviewImage imgurl={imgUrl} />}
       <Container>
         <CustomCursor />
-
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

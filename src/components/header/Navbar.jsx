@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`flex show justify-between max-sm:hidden sm:items-center sticky  z-50 h-20 transition-all duration-300 ease-in-out top-0 left-0 overflow-hidden w-full bg-transparent pl-5 pr-5`}>
+      <nav className={`flex justify-between max-sm:hidden sm:items-center sticky  z-50 h-20 transition-all duration-300 ease-in-out top-0 left-0 overflow-hidden w-full bg-dark pl-5 pr-5`}>
         <motion.div variants={opacity(0.5)} whileInView='visible' initial='hidden' viewport={{ once: true }} className={`text-white select-none  font-bold flex gap-3`}>
           {links.map((link, index) => (
             <motion.div variants={slideInFromLeft(-50, index * 0.25)} whileInView='visible' initial='hidden' viewport={{ once: true }} className="flex " key={index}>

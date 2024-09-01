@@ -26,7 +26,7 @@ export default function Skill() {
           ))}
 
           <motion.div variants={slideInFromLeft(10, 0.6)} whileInView='visible' initial='hidden' className="flexCenter  flex-wrap gap-5 " viewport={{ once: true }}>
-            <Img src='/images/github.png' height={80} width={80} className='transitions hover:scale-125' />
+            <Img src='/images/github.webp' height={80} width={80} className='transitions hover:scale-125' />
           </motion.div>
         </div>
       </section>

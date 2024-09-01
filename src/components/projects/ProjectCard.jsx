@@ -40,8 +40,8 @@ export default function ProjectCard({ index, item }) {
                             <div className="absolute z-[-1] top-0 transitions  bg-black/50 w-full h-40 hiddendiv">
                                 <div className="flexCenter h_w-full gap-5">
                                     <a href={item.link} target='_blank' className='md:hover:text-white text-white transitions md:text-gray-400 rounded-sm text-sm py-1.5 px-2.5'><TbExternalLink size={25} /></a>
-                                    <a href={item.gitLink} className='md:hover:text-white text-white md:text-gray-400'><FaGithub size={25} /></a>
-                                    <span  className='md:hover:text-white text-white md:text-gray-400' onClick={() => OpenPreviewImage(item.imgSrc)}><IoEye size={25} /></span>
+                                    {item.gitLink && <a href={item.gitLink} className='md:hover:text-white text-white md:text-gray-400'><FaGithub size={25} /></a>}
+                                    <span className='md:hover:text-white text-white md:text-gray-400' onClick={() => OpenPreviewImage(item.imgSrc)}><IoEye size={25} /></span>
                                 </div>
                             </div>
 
