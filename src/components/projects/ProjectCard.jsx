@@ -36,7 +36,7 @@ export default function ProjectCard({ index, item }) {
 
                     <div className="bg-gray-700 bg-opacity-40 p-6  rounded-lg">
                         <div className="imghoverdiv relative transitions">
-                            <Img className="h-40 w-full imgSelectNone rounded-sm relative imgObject mb-6" src={item.imgSrc} alt="content" />
+                            <Img className="h-40 w-full rounded-sm relative imgObject mb-6" src={item.imgSrc} alt="content" />
                             <div className="absolute z-[-1] top-0 transitions  bg-black/50 w-full h-40 hiddendiv">
                                 <div className="flexCenter h_w-full gap-5">
                                     <a href={item.link} target='_blank' className='md:hover:text-white text-white transitions md:text-gray-400 rounded-sm text-sm py-1.5 px-2.5'><TbExternalLink size={25} /></a>
