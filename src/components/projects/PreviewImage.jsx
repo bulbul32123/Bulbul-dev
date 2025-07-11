@@ -17,7 +17,7 @@ export default function PreviewImage({ imgurl }) {
             <motion.div variants={opacity(0.2)} whileInView='visible' initial='hidden' viewport={{ once: true }}  className='h-screen w-full bg-black/70 fixed z-[70] top-0 px-10 pt-5' onClick={() =>setImgUrl({
                      isOpenPreviewImage: false
                 })}>
-                <Img src={imgurl.imgUrl} className='w-full h-full imgObject imgSelectNone' />
+                <Img src={imgurl.imgUrl} className='w-full h-full imgObject' />
             </motion.div>
         </>
     )
